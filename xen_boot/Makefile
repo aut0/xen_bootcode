@@ -16,8 +16,8 @@
 #                                                                            #
 ##############################################################################
 
-CC     := aarch64-elf-gcc
-OC     := aarch64-elf-objcopy
+CC     := aarch64-none-elf-gcc
+OC     := aarch64-none-elf-objcopy
 CFLAGS := -Wl,--build-id=none -T link.ld -nostdlib
 
 ELFBIN := boot.elf
